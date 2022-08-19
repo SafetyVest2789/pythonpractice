@@ -1,3 +1,6 @@
+from re import L
+
+
 temperature = 25
 
 if temperature > 30:
@@ -10,3 +13,17 @@ elif temperature > 10:
 else:
     print("it's BRRrrR")
 print("Done")   
+
+
+#example of or 
+
+    
+weight = int(input("Weight: "))
+unit = input("(K)g or (L)bs: ")
+if unit.upper() == "K":
+    converted = weight/0.45
+    print("Weight in Lbs: " + str(converted))
+else:
+    converted = weight * 0.45
+    print("Weight in Kgs: " + str(converted))
+    
