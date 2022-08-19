@@ -21,7 +21,17 @@ new_patient = True
 name = input("What is your name? ")
 print("Hello " + name)
 
-#inouting type conversions
+#inouting type conversions. Wrap the string in a int() function
 birth_year = input ("Enter your birth year: ")
-age = 2020 - birth_year
+age = 2020 - int(birth_year)
 print(age)
+
+#using int(), float(), str(), 
+First: 10.1
+Second: 20
+Sum: 30.1
+
+first = float(input("First: "))
+second = float(input("Second: "))
+sum = first + second
+print("Sum: " + str(sum))
